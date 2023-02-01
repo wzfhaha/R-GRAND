@@ -1,5 +1,5 @@
 # R-GRAND
 
-unzip HGB_data 
+unzip HGB_data.zip
 
-unzip data
+unzip data.zip
