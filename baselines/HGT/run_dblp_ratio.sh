@@ -1,0 +1,4 @@
+CUDA_VISIBLE_DEVICES=1 python run_hgt_ratio.py  --hidden_dim 16 --num_heads 16 --num_layers 4 --dataset DBLP --run_num 5 --cuda_device 0 --epoch 500 --lr 5e-4 --path ../../data/ --l2norm 5e-4 --patience 50 --dropout 0.3 --run_num_seed 3 --train_ratio 0.03 --residue --layer_norm > dblp_ratio3.txt
+CUDA_VISIBLE_DEVICES=1 python run_hgt_ratio.py  --hidden_dim 16 --num_heads 16 --num_layers 4 --dataset DBLP --run_num 5 --cuda_device 0 --epoch 500 --lr 5e-4 --path ../../data/ --l2norm 5e-4 --patience 50 --dropout 0.3 --run_num_seed 3 --train_ratio 0.02 --residue --layer_norm > dblp_ratio2.txt
+CUDA_VISIBLE_DEVICES=1 python run_hgt_ratio.py  --hidden_dim 16 --num_heads 16 --num_layers 4 --dataset DBLP --run_num 5 --cuda_device 0 --epoch 500 --lr 5e-4 --path ../../data/ --l2norm 5e-4 --patience 50 --dropout 0.3 --run_num_seed 3 --train_ratio 0.01 --residue --layer_norm > dblp_ratio1.txt
+

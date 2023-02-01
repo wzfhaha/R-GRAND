@@ -1,0 +1,2 @@
+CUDA_VISIBLE_DEVICES=2 python run_gat.py --dataset Freebase_sample --cuda_device 0 --lr 5e-4 --l2norm 5e-4 -e 1000 --patience 100  --run_num 5 --run_num_seed 3 --hidden_dim 64 --num_heads 8 --num_layers 4 --train_num 50 --dropout 0.7 --path ../../data/ > freebase_50.txt
+CUDA_VISIBLE_DEVICES=2 python run_gat.py --dataset Freebase_sample --cuda_device 0 --lr 5e-4 --l2norm 5e-4 -e 1000 --patience 100  --run_num 5 --run_num_seed 3 --hidden_dim 64 --num_heads 8 --num_layers 4 --train_num 80 --dropout 0.7 --path ../../data/ > freebase_80.txt

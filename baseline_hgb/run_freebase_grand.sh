@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=0 python run_grand.py --hidden-dim 256 --num-layers 2 --dataset Freebase --run_num 5 --cuda_device 0 --sample 3 --epoch 500 --lr 1e-3 --lam 1.0 --loss l2 --wd 5e-4  --warmup 1 --patience 100 --layer_norm

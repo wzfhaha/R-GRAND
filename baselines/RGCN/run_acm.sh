@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=0 python run_rgcn.py --dataset ACM --cuda_device 0 --lr 1e-3 --l2norm 0.0  -e 1000  --patience 100  --run_num 5 --hidden_dim 128 --num_layers 4  --dropout 0.5 --layer_norm --path ../../data/ --train_num 20 --run_num_seed 3 --original --feats-type 2

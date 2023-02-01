@@ -1,0 +1,3 @@
+CUDA_VISIBLE_DEVICES=1 python run_gcn.py --dataset DBLP --cuda_device 0 --lr 5e-4 --l2norm 5e-4 -e 1000  --patience 50  --run_num 5 --run_num_seed 3 --hidden_dim 128 --num_layers 3 --train_num 5 --dropout 0.5 --path ../../data/
+CUDA_VISIBLE_DEVICES=1 python run_gcn.py --dataset DBLP --cuda_device 0 --lr 5e-4 --l2norm 5e-4 -e 1000  --patience 50  --run_num 5 --run_num_seed 3 --hidden_dim 128 --num_layers 3 --train_num 10 --dropout 0.5 --path ../../data/
+CUDA_VISIBLE_DEVICES=1 python run_gcn.py --dataset DBLP --cuda_device 0 --lr 5e-4 --l2norm 5e-4 -e 1000  --patience 50  --run_num 5 --run_num_seed 3 --hidden_dim 128 --num_layers 3 --train_num 20 --dropout 0.5 --path ../../data/

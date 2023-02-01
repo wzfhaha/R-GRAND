@@ -1,0 +1,2 @@
+CUDA_VISIBLE_DEVICES=8 python run_rgcn.py --dataset Aminer --cuda_device 0 --lr 1e-3 --l2norm 0.0 -e 1000  --patience 50  --n_bases 1 --run_num 10 --simplify --layer_norm --hidden_dim 64 --num_layers 5 --dropout 0.3
+CUDA_VISIBLE_DEVICES=8 python run_rgcn.py --dataset Aminer --cuda_device 0 --lr 1e-3 --l2norm 0.0 -e 1000  --patience 50  --n_bases 5 --run_num 10 --layer_norm --hidden_dim 128 --num_layers 5 --dropout 0.3

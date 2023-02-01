@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=0 python run_new.py --hidden-dim 64 --num-heads 8 --num-layers 4 --dataset DBLP --dropout 0.5 --run_num 5  --cuda_device 0 --epoch 500 --lr 5e-4 --path ../../data/ --weight-decay 5e-4 --patience 50 --edge-feats 64 --run_num_seed 3 --train_num 5 

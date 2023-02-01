@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=0 python run_rgcn.py --dataset DBLP --cuda_device 0 --lr 5e-4  --l2norm 5e-4 -e 1000  --patience 50  --run_num 5 --hidden_dim 128 --num_layers 4 --dropout 0.7 --path ../../data/ --train_num 20 --run_num_seed 3 --search --n_bases 1

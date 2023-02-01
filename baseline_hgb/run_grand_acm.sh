@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=1 python run_grand.py --hidden-dim 512 --num-layers 4 --dataset ACM --run_num 5 --cuda_device 0 --wd 5e-4 --beta 0.0 --patience 100 --feats-type 2 --lam 1.0 --sample 3 --epoch 500 --layer_norm

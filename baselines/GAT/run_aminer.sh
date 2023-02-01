@@ -1,0 +1,3 @@
+CUDA_VISIBLE_DEVICES=0 python run_rgcn.py --dataset Aminer --cuda_device 0 --lr 1e-3 --l2norm 0.0 -e 1000  --patience 50  --run_num 10 --layer_norm --hidden_dim 128 --num_layers 5 --dropout 0.3 --path ../../data/ --original --train_num 5 --run_num_seed 1
+ CUDA_VISIBLE_DEVICES=0 python run_rgcn.py --dataset Aminer --cuda_device 0 --lr 1e-3 --l2norm 0.0 -e 1000  --patience 50  --run_num 10 --layer_norm --hidden_dim 128 --num_layers 5 --dropout 0.3 --path ../../data/ --original --train_num 10 --run_num_seed 1
+ CUDA_VISIBLE_DEVICES=0 python run_rgcn.py --dataset Aminer --cuda_device 0 --lr 1e-3 --l2norm 0.0 -e 1000  --patience 50  --run_num 10 --layer_norm --hidden_dim 128 --num_layers 5 --dropout 0.3 --path ../../data/ --original --train_num 20 --run_num_seed 1

@@ -1,0 +1,3 @@
+CUDA_VISIBLE_DEVICES=1 python run_rgcn.py --dataset Freebase_m --cuda_device 0 --lr 1e-3 --l2norm 0.0 -e 1000  --patience 50  --run_num 10 --layer_norm --hidden_dim 64 --num_layers 5 --dropout 0.3 --train_num 5 --path ../../data/ --original
+CUDA_VISIBLE_DEVICES=1 python run_rgcn.py --dataset Freebase_m --cuda_device 0 --lr 1e-3 --l2norm 0.0 -e 1000  --patience 50  --run_num 10 --layer_norm --hidden_dim 128 --num_layers 5 --dropout 0.3 --train_num 10 --path ../../data/ --original
+CUDA_VISIBLE_DEVICES=1 python run_rgcn.py --dataset Freebase_m --cuda_device 0 --lr 1e-3 --l2norm 0.0 -e 1000  --patience 50  --run_num 10 --layer_norm --hidden_dim 128 --num_layers 5 --dropout 0.3 --train_num 20 --path ../../data/ --original
